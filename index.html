@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Trivia!</h1>
+        
+        <!-- Part 1: Multiple Choice -->
+        <h2>Part 1: Multiple Choice</h2>
+        <h3>What of the following is true?</h3>
+        <div class="buttons">
+            <button class="answer" onclick="checkMCQ(this, false)">BASIS is poop</button>
+            <button class="answer" onclick="checkMCQ(this, false)">BASIS is the worst school</button>
+            <button class="answer" onclick="checkMCQ(this, true)">BASIS is the best school, everone love it.</button>
+            <button class="answer" onclick="checkMCQ(this, false)">BASIS Rules is poop.</button>
+            <button class="answer" onclick="checkMCQ(this, false)">EIP is poop.</button>
+        </div>
+        <p id="mcq-result"></p>
+        
+        <!-- Part 2: Free Response -->
+        <h2>Part 2: Free Response</h2>
+        <h3>Which school does not allowed to speak Chinese in Mainland China?</h3>
+        <input type="text" id="frq-input" placeholder="Type your answer here">
+        <button onclick="checkFRQ()">Check Answer</button>
+        <p id="frq-result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

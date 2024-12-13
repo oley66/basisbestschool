@@ -1,0 +1,54 @@
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: #4285F4;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+h2, h3 {
+    margin-top: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+    background-color: #888;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#frq-result, #mcq-result {
+    font-weight: bold;
+    margin-top: 10px;
+}
